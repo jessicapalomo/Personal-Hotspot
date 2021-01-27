@@ -67,7 +67,9 @@ body {
   font-size: 18px;
   font-weight: 300;
   line-height: 25px;
-  width: 100%;
+  text-align: justify;
+  text-justify: inter-word;
+  width: 75%;
   overflow-x: hidden;
 }
 .h1,
@@ -143,7 +145,7 @@ p:last-child {
 }
 a:active,
 a:hover {
-  color: #004aad;
+  color: #e4fc05;
 }
 li {
   list-style: none;
@@ -277,8 +279,8 @@ section {
 /* Yellow button */
 .btn.btn-yellow {
   background: transparent;
-  border-color: #004aad;
-  color: #004aad;
+  border-color: #e4fc05;
+  color: #e4fc05;
 }
 .btn.btn-yellow:hover {
   background: #004aad !important;
@@ -292,8 +294,8 @@ section {
   color: #ffffff;
 }
 .btn.btn-trans:hover {
-  background: #004aad !important;
-  border-color: #004aad;
+  background: #e4fc05 !important;
+  border-color: #e4fc05;
   color: #ffffff !important;
 }
 
@@ -317,6 +319,9 @@ section {
 }
 
 /* Text color */
+.neon {
+  color: #e4fc05;
+}
 .text-yellow {
   color: #004aad;
 }
@@ -348,7 +353,7 @@ section {
 /*Social Icon Hover Bg Hover */
 .social-icon:hover {
   color: #202020 !important;
-  background: #004aad !important;
+  background: #e4fc05 !important;
   -webkit-transition: 0.3s ease-in-out;
   -o-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
@@ -389,7 +394,7 @@ header a.logo img {
   position: fixed;
   z-index: 9999;
   top: 0;
-  background: #171717;
+  background: #000000;
   -webkit-animation-name: animationFade;
   animation-name: animationFade;
   -webkit-animation-duration: 1s;
@@ -766,9 +771,9 @@ header a.logo img {
 }
 
 .social-icons-simple li a {
-  font-size: 16px;
+  font-size: 20px;
   justify-content: center;
-  color: #000000;
+  color: #ffffff;
   height: 40px;
   line-height: 38px;
   width: 40px;
@@ -817,7 +822,7 @@ header a.logo img {
   background-color: #ffffff;
   height: 2px;
   display: block;
-  margin-top: 3px;
+  margin-top: 6px;
   -webkit-transition: 0.8s ease;
   -o-transition: 0.8s ease;
   transition: 0.8s ease;
@@ -832,7 +837,7 @@ header a.logo img {
 }
 
 .header-appear .navigation-toggle:hover span {
-  background-color: #004aad;
+  background-color: #e4fc05;
 }
 
 .sidebar_btn {
@@ -983,7 +988,7 @@ header a.logo img {
   content: "";
   height: 25px;
   width: 25px;
-  background-color: #f6599e;
+  background-color: #e4fc05;
   border-radius: 50%;
   position: absolute;
   top: 5px;
@@ -1278,7 +1283,7 @@ header a.logo img {
    Testimonial
 ====================================== */
 
-.testimonial-bg {
+/* .testimonial-bg {
   background-image: url("../images/testimonial-bg.jpg");
   height: 100vh;
   background-repeat: no-repeat;
@@ -1298,7 +1303,7 @@ header a.logo img {
 }
 
 .icon-quotes {
-  color: #f6599e;
+  color: #e4fc05;
   font-size: 24px;
   -webkit-transition: 0.2s ease;
   -o-transition: 0.2s ease;
@@ -1332,8 +1337,8 @@ header a.logo img {
 }
 
 .testimonial-owl button.owl-dot.active {
-  background-color: #f6599e !important;
-}
+  background-color: #e4fc05 !important;
+} */
 
 /* ===================================
    Contact
